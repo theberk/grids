@@ -1,56 +1,102 @@
-#container{
-width:950;
-margin: 0 auto;
+#container {
+    width: 950;
+    margin: 0 auto;
 
-display: grid;
-column-gap: 50px;
-row-gap: 50px;
-grid-template-columns: 1fr 3fr 1fr;
-grid-template-rows: 1fr 3fr 1fr;
+    display: grid;
+    column-gap: 40px;
+    row-gap: 40px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    background: black;
 
 }
 
-#title{
-grid-column: 2/ span 1;
-grid-row: 1;
-text-align: center;
+#title {
+    grid-column: 2/ span 1;
+    grid-row: 1;
+    text-align: center;
+    background-color: #A9DBEB;
 }
 
-#menu{
-grid-column: 1 / span 1;
-grid-row: 2;
+#menu {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    background-color: #A9DBEB;
+    margin-left: 0px;
+
 }
 
-#login{
-grid-column: 1 / span 1;
-grid-row: 1;
+#menu a{
+    text-decoration: none;
+    color: black;  
+    list-style-type: none;
+    text-align: inherit;
+    margin-left: 0px;
+    background-size: 30px 30p
 }
-#login button{
-padding: 30px;}
-
-
-
-#main{
-grid-column: 2 / span 1;
-grid-row:  ;
+#menu li{ 
+    margin-bottom: 50px;
+    margin-left: ; 
+    list-style-type: none; 
+    background-color: aquamarine;
+    text-align: inherit;
+    font-size: 30px;
+    background-size: 30px;  
+    }
+#menu a:hover{
+    color: red;
 }
 
-#main img{}
-
-#profile{
-grid-column: 3 / span 1;
-grid-row: 1;
-text-align: center;
     
+    
+
+
+
+#login {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    background-color: #A9DBEB;
 }
 
-#profile button{
-padding: 30px;
+#login button {
+    padding: 30px;
 }
 
 
 
-#profile img{
-ima}
+#main {
+    grid-column: 2 / span 2;
+    grid-row: ;
+    background-color: #A9DBEB;
+}
 
-img{max-width: 100%;}
+#main img {}
+
+#profile {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+    text-align: center;
+    background-color: #A9DBEB;
+
+}
+
+#profile button {
+    padding: 30px;
+}
+
+#social {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    text-align: center;
+    background: #A9DBEB;
+}
+
+
+
+#profile img {
+    ima
+}
+
+img {
+    max-width: 100%;
+}

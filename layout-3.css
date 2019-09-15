@@ -5,22 +5,37 @@ margin: 0 auto;
 
 display: grid;
 grid-template-columns: 2fr 1fr;
+column-gap: 10px;
+row-gap: 10px;
 grid-template-areas:
 "header header"
 "main menu"
 "main login"
-"profile social"
+"profile social";
 }
 
 #title{
     grid-area:header;
+    text-align: left;
+    font-size: 50px;
+    background-color: rosybrown;
 }
 
-#main{grid-area:main;}
-#menu{grid-area:menu;}
-#login{grid-area:login;}
-#profile{grid-area:profile;}
-#social{grid-area:social;}
+#main{grid-area:main;
+background-color: bisque;}
+#menu{grid-area:menu;
+background-color: bisque;}
+#login{grid-area:login;
+background-color: bisque;}
+#profile{grid-area:profile;
+background-color: bisque;}
+#social{grid-area:social;
+background-color: bisque;}
+
+#login button{
+    padding:100px;
+    text-align: center;
+}
 
 img{max-width: 100%;}
 

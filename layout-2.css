@@ -22,7 +22,6 @@
     grid-column: 1 / span 1;
     grid-row: 2;
     background-color: #A9DBEB;
-    margin-left: 0px;
 
 }
 
@@ -35,16 +34,30 @@
     background-size: 30px 30p
 }
 #menu li{ 
-    margin-bottom: 50px;
-    margin-left: ; 
+    margin-bottom: 75px;
+    margin-left: inherit; 
     list-style-type: none; 
     background-color: aquamarine;
     text-align: inherit;
     font-size: 30px;
-    background-size: 30px;  
+    background-size: 30px;
+    width: px;
+}
+    #menu ul{
+    
     }
-#menu a:hover{
-    color: red;
+
+#menu a:hover{    
+    color: white;
+    background-color: black;
+    width: 100%;
+    height:200%;}
+    
+#menu li:hover{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height:200%;
 }
 
     
@@ -89,8 +102,12 @@
     grid-row: 3;
     text-align: center;
     background: #A9DBEB;
+    font-size: 50px;
 }
 
+#social li{
+    text-decoration: none;
+}
 
 
 #profile img {
